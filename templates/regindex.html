@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static '/css/regindex.css' %}">
+    <link rel="icon" type="image/png"  href="{% static '/images/robot.png'%}" />
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <div class="wrapper">
+        <form method="post" action="register">
+            {%csrf_token%}
+            <h1>REGISTER</h1>
+            <div class="input-box1">
+                <input type="text" placeholder="First Name" class="inp"  name="firstname" required>
+                <input type="text" placeholder="Middle Name" class="inp" name="middlename" required>
+                <input type="text" placeholder="Last Name" class="inp" name="lastname" required>
+                
+            </div>
+            <div class="input-box2">
+                <input type="email" placeholder="abc@gmail.com" class="inp2"  name="email" required>
+                <input type="text" placeholder="Phone"  name="phone" class="inp2" required>
+                <input type="date" id="date"   name="dob" class="inp2" required>
+                
+            </div>
+            <div class="input-box3">
+                <label class="form-text">Gender : </label>
+                <label class="form-text">Male</label>
+                <input type="radio" name="gender" value="male" id="gender">
+                <label class="form-text">Female</label>
+                <input type="radio" name="gender" value="female" id="gender">
+                <label class="form-text">Trans</label>
+                <input type="radio" name="gender" value="trans" id="gender">
+                <textarea name="address" placeholder="Address" cols="30" rows="10"></textarea>
+               
+                
+            </div>
+            <div class="input-box4">
+                <input type="Password" placeholder="Create Password" class="pass"  name="crpass" required>
+                <input type="Password" placeholder="Confirm Password" class="pass" name="cnpass" required>
+                
+                
+            </div>
+            <div class="input-box5">
+                <button type="submit" id="register" class="btn">Register</button>
+                <button type="reset" id="cancel" class="btn">Cancel</button>
+                
+            </div>
+            <div class="home" >
+                <a href="login" style="position: relative; left: 50%; top: 50%;">Login</a>
+            </div>
+            
+        </form>
+    </div>
+</body>
+</html>

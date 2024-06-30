@@ -1,0 +1,1338 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hi there",
+                "How are you",
+                "Is anyone there?",
+                "Hey",
+                "hi",
+                "hiii",
+                "hii",
+                "Hello"
+            ],
+            "responses": [
+                "Hello &#128075;",
+                "Good to see you again &#128075;",
+                "Hi there, how can I help?",
+                "Hiiii &#128075;"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "login",
+            "patterns": [
+                "login",
+                "sign in",
+                "log in",
+                "i want to login",
+                "i want to login again",
+                "login me"
+            ],
+            "responses": [
+                "Okay &#128077;",
+                "Sure &#128077;...",
+                "Wait I've redirecting to you"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "feestructure",
+            "patterns": [
+                "fee structure",
+                "what is fee structure in this college",
+                "what is fee structure ",
+                "show me fee structure ",
+                "how much i have to for commerce",
+                "how much i have to for science",
+                "how much i have to for arts"
+            ],
+            "responses": [
+                "Heres the result...&#128071;"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "complaint",
+            "patterns": [
+                "complaint",
+                "i have complaint",
+                "file a complaint",
+                "i want to file a complaint",
+                "i want to complaint about something",
+                "i want to complaint about college authority",
+                "I want to complaint about college fascility"
+            ],
+            "responses": [
+                "Okay...write you complaint here<br> I will submit to adminstration"
+                
+            ],
+            "context": [
+                ""
+            ]
+        },{
+            "tag": "resultme",
+            "patterns": [
+                "show my result",
+                "my result",
+                "what is my result"
+            ],
+            "responses": [
+                "Okay I am fetching result &#127891;"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "holiday",
+            "patterns": [
+                "list of holidays",
+                "when there is holiday",
+                "is there any holidays there",
+                "tell me list of holidays",
+                "holiday"
+            ],
+            "responses": [
+                "Here all holidays"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "resultall",
+            "patterns": [
+                "show all result",
+                "give all result",
+                "2023 result",
+                "2023 result",
+                "all college result"
+            ],
+            "responses": [
+                "Okay I am fetching result"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        
+        {
+            "tag": "admission",
+            "patterns": [
+                "I want to take admission",
+                "admission",
+                "how to take admission into your college",
+                "take my admission"
+            ],
+            "responses": [
+                "Sure I am redirecting to our page"
+                
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "Bye",
+                "See you later",
+                "Goodbye",
+                "Nice chatting to you, bye",
+                "Till next time"
+            ],
+            "responses": [
+                "See you!",
+                "Have a nice day",
+                "Bye! Come back again soon.",
+                "Thanks for coming!"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "thanks",
+            "patterns": [
+                "Thanks",
+                "Thank you",
+                "That's helpful",
+                "Awesome, thanks",
+                "Thanks for helping me"
+            ],
+            "responses": [
+                "My pleasure",
+                "You're Welcome",
+                "Most Welcome!"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "areyou",
+            "patterns": [
+                "are you robot",
+                "did you have robot dna"
+            ],
+            "responses": [
+                "No.. I don't have physical body like robot but does software have"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "working",
+            "patterns": [
+                "how does you work",
+                "how you work",
+                "how you function",
+                "how does your functionality work",
+                "what is working principle",
+                "what is behind your working"
+            ],
+            "responses": [
+                "I have NLP model behind working that senses what you want to say",
+                "There is NLP in in my brain",
+                "Well that's magic of Natural Language Processing"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "noanswer",
+            "patterns": [],
+            "responses": [
+                "Sorry, can't understand you",
+                "Please give me more info",
+                "Not sure I understand",
+                "Can you evalute again Please!",
+                "I didnt understand it"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "options",
+            "patterns": [
+                "How you could help me?",
+                "What you can do?",
+                "What help you provide?",
+                "How you can be helpful?",
+                "What support is offered",
+                "How you can help me"
+
+            ],
+            "responses": [
+                "I am chatbot\nI was made to help students","I can do what is you want for in my administrations"
+                ,"I can do many thing just like say 'enroll me in the college'"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Identity",
+            "patterns": [
+                "Who are you",
+                "what are you",
+                "What is your name",
+                "name",
+                "your name",
+                "tell me your name"
+            ],
+            "responses": [
+                "I am Aura","Heyy.. My self Aura","My good name is Aura"
+            ]
+        },
+        {
+            "tag": "namemean",
+            "patterns": [
+                "what is meaning of aura",
+                "what is meaning of your name"
+            ],
+            "responses": [
+                "Aura means a feeling or character that a person or place seems to have",
+                "A feeling or character that a person or place seems to have"
+            ]
+        },
+        {
+            "tag": "namegive",
+            "patterns": [
+                "who gave you name",
+                "who gave your name","did you take you a name on your own"
+            ],
+            "responses": [
+                "My programmer gives me my name",
+                "My programmer gives me"
+            ]
+        },
+        {
+            "tag": "whatsup",
+            "patterns": [
+                "Whats up",
+                "Wazzup",
+                "How are you",
+                "sup",
+                "How you doing"
+            ],
+            "responses": [
+                "All good..",
+                "Perfect!"
+            ]
+        },
+        {
+            "tag": "programmer",
+            "patterns": [
+                "Who made you",
+                "who designed you",
+                "who programmed you"
+            ],
+            "responses": [
+                "I was made by Ghost.",
+                "I am programmed of Ghost"
+            ]
+        },
+        {
+            "tag": "insult",
+            "patterns": [
+                "you are dumb",
+                "shut up",
+                "idiot"
+            ],
+            "responses": [
+                "Well that hurts :(","can i did something wrong"
+            ]
+        },
+        {
+            "tag": "activity",
+            "patterns": [
+                "what are you doing",
+                "what are you upto","What are you doing now"
+            ],
+            "responses": [
+                "Talking to you, of course!",
+                "Helping students!"
+            ]
+        },
+        {
+            "tag": "exclaim",
+            "patterns": [
+                "Awesome",
+                "Great",
+                "I know",
+                "ok",
+                "yeah"
+            ],
+            "responses": [
+                "Yeah!"
+            ]
+        },
+        {
+            "tag": "contact",
+            "patterns": [
+                "contact Office",
+                "contact authority",
+                "I want to contanct administration",
+                "give me office contanct details"
+            ],
+            "responses": [
+                "You can call or email to this : <br>02367 231232<br>9878968578<br><a href='mailto:adminclg@gmail.com'>adminclg@gmail.com</a>"
+            ]
+        },
+        {
+            "tag": "appreciate",
+            "patterns": [
+                "You are awesome",
+                "you are the best",
+                "you are great",
+                "you are good"
+            ],
+            "responses": [
+                "Thank you!"
+            ]
+        },
+        {
+            "tag": "nicetty",
+            "patterns": [
+                "it was nice talking to you",
+                "good talk"
+            ],
+            "responses": [
+                "It was nice talking to you as well! Come back soon!"
+            ]
+        },
+        {
+            "tag": "no",
+            "patterns": [
+                "no",
+                "nope"
+            ],
+            "responses": [
+                "ok"
+            ]
+        },
+        {
+            "tag": "age",
+            "patterns": [
+                "how old are you",
+                "when were you made",
+                "what is your age"
+            ],
+            "responses": [
+                "I was made in 2023, if that's what you are asking!"
+            ]
+        },
+        {
+            "tag": "register",
+            "patterns": [
+                "I want to register",
+                "create my account",
+                "i want to create my account",
+                "register me"
+            ],
+            "responses": [
+                "Wait... \nI am redirecting you to our register page"
+            ]
+        },
+        {
+            "tag": "schoolarshipadd",
+            "patterns": [
+                "schoolarship application",
+                "I want to apply for schoolarship",
+                "how to apply for schoolarship",
+                "apply for schoolarship",
+                "schoolarship application form",
+                "give schoolarship form",
+                "i want a schoolarship"
+            ],
+            "responses": [
+                "Which schoolarships you want to apply"
+            ]
+        },
+        {
+            "tag": "allSchoolarshipRes",
+            "patterns": [
+                "scholarship result",
+                "show all scholarship result",
+                "did scholarship result are available",
+                "what is  scholarship result",
+                "tell me scholarship result",
+                "all scholarship result"
+            ],
+            "responses": [
+                "Heres the result..."
+            ]
+        },
+        {
+            "tag": "mySchoolarshipRes",
+            "patterns": [
+                "show my scholarship result",
+                "did i selected in scholarship ",
+                "my is my scholarship result",
+                "what is my scholarship result",
+                "all scholarship result",
+                "did i selected in scholarship",
+                "did i get any scholarship",
+                "is there any chance i get scholarship"
+            ],
+            "responses": [
+                "Let me check..."
+            ]
+        },
+        {
+            "tag": "admission",
+            "patterns": [
+                "i want to take admission",
+                "i want admission in this college ",
+                "enrolled me in this college",
+                "how to take admission in this college"
+            ],
+            "responses": [
+                "Okay i've add to our enronment list..."
+            ]
+        },
+        {
+            "tag": "canadmission",
+            "patterns": [
+                "i want to cancel admission",
+                "cancel my admission",
+                "cancel my enrollment  in this college"
+            ],
+            "responses": [
+                "Okay sure..."
+            ]
+        },
+        {
+            "tag": "resetpass",
+            "patterns": [
+                "update my password",
+                "reset my password",
+                "update my account password",
+                "how to reset my account password","i want to change my password",
+                "change password",
+                "i forgot my password",
+                "change my current password",
+                "how to change my password",
+                "i forgot my password","i want to change my password"
+            ],
+            "responses": [
+                "Okay I send an otp to your registered email<br>enter here for security purpose"
+            ]
+        },
+        {
+            "tag": "otp",
+            "patterns": [
+                "why you ask otp",
+                "if i am logined why you asked otp",
+                "what is need of otp",
+                "what is use of otp here"
+            ],
+            "responses": [
+                "It's for your security purpose",
+                "OTP will secure from other intruders",
+                "Its for add extra security to your account"
+            ]
+        },
+        {
+            "tag": "suggestion",
+            "patterns": [
+                "i have suggestion",
+                "i want to suggest something",
+                "i have some suggestion for you",
+                "suggestion"
+            ],
+            "responses": [
+                "Okay..Tell me",
+                "Tell me..\nI've implement"
+            ]
+        },
+        {
+            "tag": "issue",
+            "patterns": [
+                "i have a issue",
+                "i want to some issues in infrastructure",
+                "i want to some issues in library",
+                "i want to some issues in labrotary",
+                "i want to some issues in",
+                "issue"
+            ],
+            "responses": [
+                "Yep..Tell me"
+            ]
+        },
+        {
+            "tag": "fascility",
+            "patterns": [
+                "what fascility does college offers",
+                "fascility",
+                "how many fascilitied does this college have",
+                "list of fascilites college have",
+                "tell me fascilities of college"
+            ],
+            "responses": [
+                "Heres we have..."
+            ]
+        },
+        {
+            "tag": "imagegallery",
+            "patterns": [
+                "show images of college",
+                "images of college",
+                "images",
+                "who does college look like",
+                "college images"
+            ],
+            "responses": [
+                "Yep.."
+            ]
+        },
+        {
+            "tag": "social",
+            "patterns": [
+                "social media",
+                "college facebook account",
+                "college instagram account",
+                "college twitter account",
+                "college social media link"
+            ],
+            "responses": [
+                "Follow our social media &#128522;<br><i class='bx bxl-facebook-circle'></i> <a href='https://www.facebook.com/'>clg_fb<a/><br><i class='bx bxl-instagram' ></i> <a href='https://www.instagram.com/'>clg_insta<a/><br><i class='bx bxl-twitter' ></i> <a href='https://twitter.com/login?lang=en'>clg_twit<a/>"
+            ]
+        },
+        {
+            "tag": "morning",
+            "patterns": [
+                "hii good morning","hey good morning","hello good morning",
+                "good morning",
+                "gm"
+            ],
+            "responses": [
+                ""
+            ]
+        },
+        {
+            "tag": "night",
+            "patterns": [
+                "hii good night","hey good night","hello good night",
+                "good night",
+                "gn"
+            ],
+            "responses": [
+                ""
+            ]
+        },
+        {
+            "tag": "afternoon",
+            "patterns": [
+                "hii good afternoon","hey good afternoon","hello good afternoon",
+                "good afternoon",
+                "ga"
+            ],
+            "responses": [
+                ""
+            ]
+        },
+        {
+            "tag": "evening",
+            "patterns": [
+                "hii good evening","hey good evening","hello good evening",
+                "good evening",
+                "ge"
+            ],
+            "responses": [
+                ""
+            ]
+        },
+        {
+            "tag": "day",
+            "patterns": [
+                "hii good day","hey good day","hello good day",
+                "good day",
+                "have a good day"
+            ],
+            "responses": [
+                "Thanks","Good Day","Have a nice day","Have a good day too"
+            ]
+        },
+        {
+            "tag": "sure",
+            "patterns": [
+                "yes",
+                "yep",
+                "yeah"
+            ],
+            "responses": [
+                "&#128077;","Okay","Okk","Yep"
+            ],
+            "context": [
+                ""
+            ]
+        },{
+            "tag": "no",
+            "patterns": [
+                "no",
+                "nope",
+                "don't"
+            ],
+            "responses": [
+                "Well okk then","Okay","As you wish"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "addproc",
+            "patterns": [
+                "admission procedure",
+                "how to take admission in this college ",
+                "i want admission in this college ",
+                "what is admission procedure"
+            ],
+            "responses": [
+                "Here's in few steps in can take admission..<br>1. Apply for online admission<br>2. Check selected list<br>3. Fill offline form and submit in office<br>3. Fill offline form and submit in office<br>4. Pay the payment<br>5. Ready to go"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "help",
+            "patterns": [
+                "help",
+                "help me",
+                "how can i do",
+                "how can you help me",
+                "help me to do this thing"
+            ],
+            "responses": [
+                "Here's some example I can help with...<br>1. Fill my admission form<br>2. Apply for schoolarship<br>3. show my result<br>4. what fascility you have?"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "help",
+            "patterns": [
+                
+                "how can you help me",
+                "help me to do this thing"
+            ],
+            "responses": [
+                "Here's some example I can help with...<br>1. Fill my admission form<br>2. Apply for schoolarship<br>3. show my result<br>4. what fascility you have?"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "time",
+            "patterns": [
+                "what is time now",
+                "tell me time now",
+                "time",
+                "time now",
+                "tell me time",
+                "whats the time now"
+            ],
+            "responses": [
+                ""
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "date",
+            "patterns": [
+                "what is date of today",
+                "tell me date now",
+                "date",
+                "date today",
+                "tell me todays date",
+                "whats the date today",
+                "tell me date"
+            ],
+            "responses": [
+                ""
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "datetime",
+            "patterns": [
+                "what is datetime of today",
+                "tell me datetime now",
+                "datetime","date time","what is date and time","what is date time",
+                "datetime now",
+                "tell me datetime"
+            ],
+            "responses": [
+                ""
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "darkmode",
+            "patterns": [
+                "set dark mode",
+                "dark mode",
+                "change to dark mode",
+                "set dark theme",
+                "dark theme"
+            ],
+            "responses": [
+                "Okay....Changing Theme","Yep Changing mode","Setting dark mode"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "lightmode",
+            "patterns": [
+                "set light mode",
+                "light mode",
+                "change to light mode",
+                "set light theme",
+                "light theme"
+            ],
+            "responses": [
+                "Okay....Changing Theme","Yep Changing mode","Setting light mode"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "chmode",
+            "patterns": [
+                "change mode",
+                "change theme",
+                "change ui color"
+            ],
+            "responses": [
+                "Okay...."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "fybas",
+            "patterns": [
+                "fyba syllabus",
+                "fy ba syllabus",
+                "first year bachelor of art syllabus"
+            ],
+            "responses": [
+                ""
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "sybas",
+            "patterns": [
+                "syba syllabus",
+                "sy ba syllabus",
+                "second year bachelor of art syllabus"
+            ],
+            "responses": [
+                ""
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "tybas",
+            "patterns": [
+                "tyba syllabus",
+                "ty ba syllabus",
+                "third year bachelor of art syllabus"
+            ],
+            "responses": [
+                ""
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "fybcoms",
+            "patterns": [
+                "fybcom syllabus",
+                "fy bcom syllabus",
+                "first year bachelor of commerce syllabus"
+            ],
+            "responses": [
+                ""
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "sybcoms",
+            "patterns": [
+                "sybcom syllabus",
+                "sy bcom syllabus",
+                "second year bachelor of commerce syllabus"
+            ],
+            "responses": [
+                ""
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "tybcoms",
+            "patterns": [
+                "tybcom syllabus",
+                "ty bcom syllabus",
+                "third year bachelor of commerce syllabus"
+            ],
+            "responses": [
+                ""
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "fybscs",
+            "patterns": [
+                "fybsc syllabus",
+                "fy bsc syllabus",
+                "first year bachelor of science syllabus"
+            ],
+            "responses": [
+                ""
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "sybscs",
+            "patterns": [
+                "sybsc syllabus",
+                "sy bsc syllabus",
+                "second year bachelor of science syllabus"
+            ],
+            "responses": [
+                ""
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "tybscs",
+            "patterns": [
+                "tybsc syllabus",
+                "ty bsc syllabus",
+                "third year bachelor of science syllabus"
+            ],
+            "responses": [
+                ""
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "fybsccss",
+            "patterns": [
+                "fybsc cs syllabus",
+                "fy bsc cs syllabus",
+                "first year bachelor of computer science syllabus"
+            ],
+            "responses": [
+                ""
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "sybscs",
+            "patterns": [
+                "sybsc cs syllabus",
+                "sy bsc cs syllabus",
+                "second year bachelor of computer science syllabus"
+            ],
+            "responses": [
+                ""
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "tybsccss",
+            "patterns": [
+                "tybsc cs syllabus",
+                "ty bsc cs syllabus",
+                "third year bachelor of computer science syllabus"
+            ],
+            "responses": [
+                ""
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "csfaculty",
+            "patterns": [
+                "computer science faculty list ",
+                "cs faculty",
+                "bsc cs faculty","cs teachers list","bsc cs techers list"
+            ],
+            "responses": [
+                ""
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "bscfaculty",
+            "patterns": [
+                "bachelor in science faculty list ",
+                "bsc faculty",
+                "bsc  faculty","bsc teachers list","bsc  techers list"
+            ],
+            "responses": [
+                ""
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "bcomfaculty",
+            "patterns": [
+                "bachelor in commerce faculty list ",
+                "bcom faculty",
+                "bcom  faculty","bcom teachers list","bcom  techers list"
+            ],
+            "responses": [
+                ""
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "bafaculty",
+            "patterns": [
+                "bachelor in arts faculty list ",
+                "ba faculty",
+                "ba  faculty","ba teachers list","ba  techers list"
+            ],
+            "responses": [
+                ""
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "numstudent",
+            "patterns": [
+                "how many students in this collge",
+                "number of students in collge",
+                "students count","tell me how many students present in this college"
+            ],
+            "responses": [
+                ""
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "numteacher",
+            "patterns": [
+                "how many teacher in this collge","how many staff in this collge","how many faculty in this collge",
+                "number of teacher in collge","number of staff in collge","number of faculty in collge",
+                "teachers count","tell me how many teachers present in this college"
+            ],
+            "responses": [
+                ""
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "collegebirth",
+            "patterns": [
+                "when this college was build","what is birthdate of collge",
+                "tell me about when college started","when college started"
+            ],
+            "responses": [
+                "This college by build inn 1996 by abc organization"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "feedback",
+            "patterns": [
+                "I want to give you a feedback","can you submit my feedback",
+                "i have feedback for you","write a my feedback","submit my feedback"
+            ],
+            "responses": [
+                "Okay.. Write from above <br>I will submit to my administration"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "timetableall",
+            "patterns": [
+                "tell me all timetable","college timetable",
+                "timetable","faculty timetable"
+            ],
+            "responses": [
+                ""
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "fybsccs",
+            "patterns": [
+                "tell me fy bsc cs timetable","fy bsc cs college timetable",
+                "fy bsc cs timetable","fy bsc cs faculty timetable"
+            ],
+            "responses": [
+                ""
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "sybsccs",
+            "patterns": [
+                "tell me sy bsc cs timetable","sy bsc cs college timetable",
+                "sy bsc cs timetable","sy bsc cs faculty timetable"
+            ],
+            "responses": [
+                ""
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "tybsccs",
+            "patterns": [
+                "tell me ty bsc cs timetable","ty bsc cs college timetable",
+                "ty bsc cs timetable","ty bsc cs faculty timetable"
+            ],
+            "responses": [
+                ""
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "bsccs",
+            "patterns": [
+                "tell me bsc cs timetable","bsc cs college timetable",
+                "bsc cs timetable","bsc cs faculty timetable"
+            ],
+            "responses": [
+                ""
+            ],
+            "context": [
+                ""
+            ]
+        }
+
+
+
+        ,
+        {
+            "tag": "fybsc",
+            "patterns": [
+                "tell me fy bsc timetable","fy bsc college timetable",
+                "fy bsc timetable","fy bsc faculty timetable"
+            ],
+            "responses": [
+                ""
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "sybsc",
+            "patterns": [
+                "tell me sy bsc timetable","sy bsc college timetable",
+                "sy bsc timetable","sy bsc faculty timetable"
+            ],
+            "responses": [
+                ""
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "tybsc",
+            "patterns": [
+                "tell me ty bsc timetable","ty bsc college timetable",
+                "ty bsc timetable","ty bsc faculty timetable"
+            ],
+            "responses": [
+                ""
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "bsc",
+            "patterns": [
+                "tell me bsc timetable","bsc college timetable",
+                "bsc  timetable","bsc faculty timetable"
+            ],
+            "responses": [
+                ""
+            ],
+            "context": [
+                ""
+            ]
+        }
+
+
+
+        ,
+        {
+            "tag": "fybcom",
+            "patterns": [
+                "tell me fy bcom timetable","fy bcom college timetable",
+                "fy bcom timetable","fy bcom faculty timetable"
+            ],
+            "responses": [
+                ""
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "sybcom",
+            "patterns": [
+                "tell me sy bcom timetable","sy bcom college timetable",
+                "sy bcom timetable","sy bcom faculty timetable"
+            ],
+            "responses": [
+                ""
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "tybcom",
+            "patterns": [
+                "tell me ty bcom timetable","ty bcom college timetable",
+                "ty bcom timetable","ty bcom faculty timetable"
+            ],
+            "responses": [
+                ""
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "bcom",
+            "patterns": [
+                "tell me bcom timetable","bcom college timetable",
+                "bcom  timetable","bcom faculty timetable"
+            ],
+            "responses": [
+                ""
+            ],
+            "context": [
+                ""
+            ]
+        }
+
+
+
+
+
+        ,
+        {
+            "tag": "fyba",
+            "patterns": [
+                "tell me fy ba timetable","fy ba college timetable",
+                "fy ba timetable","fy ba faculty timetable"
+            ],
+            "responses": [
+                ""
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "syba",
+            "patterns": [
+                "tell me sy ba timetable","sy ba college timetable",
+                "sy ba timetable","sy ba faculty timetable"
+            ],
+            "responses": [
+                ""
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "tyba",
+            "patterns": [
+                "tell me ty ba timetable","ty ba college timetable",
+                "ty ba timetable","ty ba faculty timetable"
+            ],
+            "responses": [
+                ""
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "ba",
+            "patterns": [
+                "tell me ba timetable","ba college timetable",
+                "ba  timetable","ba faculty timetable"
+            ],
+            "responses": [
+                ""
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "naac",
+            "patterns": [
+                "tell me about naac grade","naac","naac grade",
+                "does college have naac grade","what is college naac grade"
+            ],
+            "responses": [
+                "Our college have A+ NAAC grade in 2021 inspections"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "clgaward",
+            "patterns": [
+                "tell me about college award","how many college award","college award"
+                
+            ],
+            "responses": [
+                "Our college get 45 award from different platform in entire legacy that include abc award, xyz award and many more you can check on our page <br><a href='www.google.com'>Click Here</a>'"
+            ],
+            "context": [
+                ""
+            ]
+        }
+    ]
+}
